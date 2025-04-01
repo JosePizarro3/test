@@ -1,0 +1,24 @@
+{
+  "template": "https://github.com/BAMresearch/masterdata-generator",
+  "commit": "28f84901f35cf12c9fcdc1da85739d6727853b3a",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author": "Erika Mustermann",
+      "email": "erika.mustermann@bam.de",
+      "github_username": "BAMResearch",
+      "project_name": "masterdata-example",
+      "module_name": "masterdata_example",
+      "short_description": "A short description for the masterdata project.",
+      "include_python_masterdata": true,
+      "include_excel_masterdata": true,
+      "include_rdfxml_masterdata": true,
+      "_copy_without_render": [
+        "*.html"
+      ],
+      "_template": "https://github.com/BAMresearch/masterdata-generator",
+      "_commit": "28f84901f35cf12c9fcdc1da85739d6727853b3a"
+    }
+  },
+  "directory": null
+}
