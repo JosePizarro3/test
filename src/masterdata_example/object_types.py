@@ -14,7 +14,7 @@ class ExampleObjectType(ObjectType):
 
     name = PropertyTypeAssignment(
         code="$NAME",
-        data_type="VARCHAR",
+        data_type="blabla",
         property_label="Name",
         description="""Name""",
         mandatory=True,
@@ -31,4 +31,15 @@ class ExampleObjectType(ObjectType):
         mandatory=False,
         show_in_edit_views=False,
         section="General Information",
+    )
+
+
+class Simulation(ObjectType):
+    defs = ObjectTypeDef(
+        code="SIMULATION",
+        description="""
+        A simulation of a system==Eine Simulation eines Systems
+        """,
+        iri="http://purl.obolibrary.org/bam-masterdata/Simulation:0.0.0",
+        generated_code_prefix="SIM_UL2",
     )
